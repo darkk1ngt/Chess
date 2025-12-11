@@ -1,0 +1,22 @@
+{
+  "name": "Chess",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "check": "biome check --write",
+    "dev": "rsbuild dev --open",
+    "format": "biome format --write",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.3.8",
+    "@rsbuild/core": "^1.6.12",
+    "@rsbuild/plugin-react": "^1.4.2"
+  }
+}
